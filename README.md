@@ -17,8 +17,23 @@ This paper explores the application of FPGA programmable structures in the field
 
 ## Digital image processing
 ### Morphological operations
-![slika-morphology-erosion1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/2f2de9c1-e0c4-4dec-b749-e52c1bb7420c | width=100) 
+![slika-morphology-erosion1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/2f2de9c1-e0c4-4dec-b749-e52c1bb7420c)
 ![slika-morphology-dilatation1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/1f4716e5-37fe-493a-b44d-c18c70686317)
+
+### Gaussian filter
+![slika-gaussian3x3-filtered](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/91b3e353-5b3d-4771-96e8-875533deee7a)
+
+### Sobel edge detector
+![slika-sobel3x3-edge](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/23f16f37-7364-46e6-b362-db942b599f21)
+
+## Digital video processing
+![kamera_grayscale1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/d956337d-0f30-4bd7-8552-6441a25c79bb)
+![kamera_binary1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/e32e8528-c8bd-4e55-a0c4-36e0ccfd8335)
+
+
+
+
+
 
 
 
