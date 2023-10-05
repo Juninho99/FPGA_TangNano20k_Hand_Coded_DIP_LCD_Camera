@@ -1,10 +1,10 @@
 # FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera
  
-This paper explores the application of FPGA programmable structures in the field of digital image processing. FPGA structures offer high flexibility, speed, and parallel data processing, making them ideal devices for digital image processing. 
+This paper explores the application of FPGA programmable structures in the field of digital image processing. FPGA structures offer high flexibility, speed, and parallel data processing, making them ideal devices for digital image processing.__ 
 
-The paper discusses fundamental concepts of digital image processing, including morphological operations, filtering, and edge detection. The study showcases practical implementations of the algorithms on FPGA programmable structures, demonstrating their capacity to significantly enhance image processing speeds. Through illustrative examples and empirical results, the paper illuminates the distinct advantages of employing FPGA-based implementations when contrasted with traditional CPU approaches. 
+The paper discusses fundamental concepts of digital image processing, including morphological operations, filtering, and edge detection. The study showcases practical implementations of the algorithms on FPGA programmable structures, demonstrating their capacity to significantly enhance image processing speeds. Through illustrative examples and empirical results, the paper illuminates the distinct advantages of employing FPGA-based implementations when contrasted with traditional CPU approaches.__ 
 
-Furthermore, the research addresses challenges that arise during the configuration of FPGA programmable structures, such as resource optimization, memory management, and achieving higher program execution frequencies. The paper culminates in an examination of FPGA programmable structures application in video processing. It explores how the same algorithms, initially designed for processing images retrieved from memory, can be extended seamlessly to the realm of video processing. 
+Furthermore, the research addresses challenges that arise during the configuration of FPGA programmable structures, such as resource optimization, memory management, and achieving higher program execution frequencies. The paper culminates in an examination of FPGA programmable structures application in video processing. It explores how the same algorithms, initially designed for processing images retrieved from memory, can be extended seamlessly to the realm of video processing.__ 
 
 Throughout this exploration, the study weaves in the unique intricacies associated with the selected hardware, providing a holistic perspective on the potential of FPGA-based solutions in the context of digital image and video processing.
 
