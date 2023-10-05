@@ -1,0 +1,22 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb2.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb4.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb5.v" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/top1.sv" type="file.verilog" enable="1"/>
+        <File path="src/top2.sv" type="file.verilog" enable="1"/>
+        <File path="src/top3.sv" type="file.verilog" enable="1"/>
+        <File path="src/Lite0.gao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>

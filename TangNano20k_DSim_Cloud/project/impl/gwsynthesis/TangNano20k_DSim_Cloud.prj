@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_rpll\gowin_rpll1.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_sdpb\gowin_sdpb.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_sdpb\gowin_sdpb1.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_sdpb\gowin_sdpb2.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_sdpb\gowin_sdpb3.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_sdpb\gowin_sdpb4.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\gowin_sdpb\gowin_sdpb5.v" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\top.sv" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\top1.sv" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\top2.sv" type="verilog"/>
+        <File path="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\src\top3.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\gwsynthesis\TangNano20k_DSim_Cloud.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="top3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-2008"/>
+    </OptionList>
+</Project>

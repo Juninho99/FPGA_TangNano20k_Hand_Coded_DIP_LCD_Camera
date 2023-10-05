@@ -1,0 +1,16 @@
+# Reference documentation: https://support.metrics.ca/hc/en-us/articles/9905737591565
+toolchain:
+  environment-variables: # Define environment variables
+    # HELLO: world
+  packages: # Include packages
+    - name: ieee
+      version: "93"
+    # - name: quartus
+    #   version: "22.2"
+    # - name: vivado
+    #   version: "2022.1"
+    # - name: uvm
+    #   version: "1.2"
+  dsim:
+    # version: "20220822.x.x" # Optional. Defaults to the latest version available. Uncomment to set a specific version.
+

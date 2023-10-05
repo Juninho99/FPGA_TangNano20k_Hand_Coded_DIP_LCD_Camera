@@ -1,0 +1,31 @@
+Reading netlist file: "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\gwsynthesis\TangNano20k_DSim_Cloud.vg"
+Parsing netlist file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\gwsynthesis\TangNano20k_DSim_Cloud.vg" completed
+Processing netlist completed
+Parsing netlist file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\gao\gao.v" completed
+WARN  (PA1015) : Signal 'output_pixel' captured in GAO is replaced by 'output_pixel_d'
+WARN  (PA1015) : Signal 'clk_27' captured in GAO is replaced by 'clk_27_d'
+Processing netlist completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\pnr\TangNano20k_DSim_Cloud.power.html" completed
+Generate file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\pnr\TangNano20k_DSim_Cloud.pin.html" completed
+Generate file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\pnr\TangNano20k_DSim_Cloud.rpt.html" completed
+Generate file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\pnr\TangNano20k_DSim_Cloud.rpt.txt" completed
+Generate file "C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_DSim_Cloud\project\impl\pnr\TangNano20k_DSim_Cloud.tr.html" completed
+Thu Aug 24 17:16:40 2023
+

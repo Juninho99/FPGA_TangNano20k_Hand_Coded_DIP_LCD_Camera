@@ -1,0 +1,7 @@
+../../simlib/gw2a/prim_sim.v
+
+../../project/src/top2.sv
+../../project/src/gowin_rpll/gowin_rpll.v
+../../project/src/gowin_sdpb/gowin_sdpb3.v
+
+../../tb/top_tb.sv

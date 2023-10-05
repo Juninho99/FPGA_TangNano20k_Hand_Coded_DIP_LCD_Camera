@@ -1,0 +1,60 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_rpll/gowin_rpll1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_sdpb/gowin_sdpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_sdpb/gowin_sdpb1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_sdpb/gowin_sdpb2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_sdpb/gowin_sdpb3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_sdpb/gowin_sdpb4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/gowin_sdpb/gowin_sdpb5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/top1.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/top2.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/src/top3.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_DSim_Cloud/project/impl/temp/rtl_parser.result",
+ "Top" : "top3",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_2008"
+}

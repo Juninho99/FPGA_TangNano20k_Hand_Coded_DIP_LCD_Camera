@@ -1,0 +1,14 @@
+signal top_tb.output_pixel +
+
+signal top_tb.u_top.u_rpll.clkin +
+signal top_tb.u_top.u_rpll.clkout +
+
+signal top_tb.u_top.dout_1 +
+signal top_tb.u_top.dout_2 +
+signal top_tb.u_top.dout_3 +
+
+signal top_tb.u_top.addrWrite +
+signal top_tb.u_top.addrRead1 +
+signal top_tb.u_top.addrRead2 +
+signal top_tb.u_top.addrRead3 +
+signal top_tb.u_top.endWrite +

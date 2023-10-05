@@ -1,0 +1,13 @@
+# MDC configurations
+*mdc_config.yml
+*mdc_ignore
+
+# Default file patterns to ignore when synchronizing files to the remote disk
+*.log
+
+# Waveform databases
+*.vcd
+*.mxd
+
+# Downloaded files from the remote disk
+_downloaded_*

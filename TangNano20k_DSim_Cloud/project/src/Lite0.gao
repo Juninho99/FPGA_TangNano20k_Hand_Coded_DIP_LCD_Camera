@@ -1,0 +1,19 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="clk_out" trig_type="0" capture_amount="2048" implemention="0" input_register_enabled="1" capture_init_data_enabled="1" module_name="top3">
+        <SignalList>
+            <Signal>dout_1</Signal>
+            <Signal>dout_2</Signal>
+            <Signal>dout_3</Signal>
+            <Signal>dout_4</Signal>
+            <Signal>dout_5</Signal>
+            <Signal>endWrite</Signal>
+            <Signal>output_pixel</Signal>
+            <Signal>clk_out</Signal>
+            <Signal>clk_27</Signal>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0000010101110000</GAO_ID>
+</GAO_CONFIG>
