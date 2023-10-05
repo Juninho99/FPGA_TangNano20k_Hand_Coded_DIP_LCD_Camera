@@ -1,0 +1,11 @@
+-d C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_Camera_attempt_6\impl\gwsynthesis\TangNano20k_Camera_attempt_2.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_Camera_attempt_6\src\pcf.cst
+-cfg C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_Camera_attempt_6\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

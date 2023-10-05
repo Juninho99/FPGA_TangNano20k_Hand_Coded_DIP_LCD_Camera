@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="C:/Gowin/Gowin_V1.9.8.10/IDE/data/ipcores/GAO_LITE/GW_AO_0/gw_ao_mem_ctrl.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8.10/IDE/data/ipcores/GAO_LITE/GW_AO_0/gw_ao_top.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8.10/IDE/data/ipcores/GAO_LITE/GW_CON/gw_con_top.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.8.10/IDE/data/ipcores/gw_jtag.v" type="verilog"/>
+        <File path="C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_2/impl/gao/gw_gao_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.8.10/IDE/data/ipcores/GAO_LITE"/>
+        <Option type="include_path" value="C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_2/impl/gao"/>
+        <Option type="output_file" value="C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_2/impl/gao/gao.v"/>
+    </OptionList>
+</Project>

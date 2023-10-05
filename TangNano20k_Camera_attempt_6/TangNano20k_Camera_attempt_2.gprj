@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/Binary_video.v" type="file.verilog" enable="1"/>
+        <File path="src/Morphology_3x3_video.v" type="file.verilog" enable="1"/>
+        <File path="src/ekran.v" type="file.verilog" enable="1"/>
+        <File path="src/ekran1.v" type="file.verilog" enable="1"/>
+        <File path="src/ekran2.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll_pix.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb2.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb4.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/pcf.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

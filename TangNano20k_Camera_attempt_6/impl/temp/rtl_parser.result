@@ -1,0 +1,134 @@
+[
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Binary_video.v",
+  "InstLine" : 1,
+  "InstName" : "Binary_video",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Binary_video.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Binary_video",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Binary_video.v",
+    "InstLine" : 53,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb3.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB3"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran.v",
+  "InstLine" : 1,
+  "InstName" : "ekran",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ekran",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran.v",
+    "InstLine" : 56,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran1.v",
+  "InstLine" : 1,
+  "InstName" : "ekran1",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran1.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ekran1",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran1.v",
+    "InstLine" : 56,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb1.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB1"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran2.v",
+  "InstLine" : 1,
+  "InstName" : "ekran2",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran2.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ekran2",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran2.v",
+    "InstLine" : 66,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb2.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB2"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_rpll/gowin_rpll_pix.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_rPLL_pix",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_rpll/gowin_rpll_pix.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_rPLL_pix"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/top.v",
+    "InstLine" : 19,
+    "InstName" : "rPLL_75",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/top.v",
+    "InstLine" : 90,
+    "InstName" : "Mv",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Morphology_3x3_video.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Morphology_3x3_video",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Morphology_3x3_video.v",
+      "InstLine" : 86,
+      "InstName" : "your_instance_name1",
+      "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_SDPB4"
+     },
+     {
+      "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Morphology_3x3_video.v",
+      "InstLine" : 100,
+      "InstName" : "your_instance_name2",
+      "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_SDPB4"
+     },
+     {
+      "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Morphology_3x3_video.v",
+      "InstLine" : 114,
+      "InstName" : "your_instance_name3",
+      "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb4.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_SDPB4"
+     }
+    ]
+   }
+  ]
+ }
+]

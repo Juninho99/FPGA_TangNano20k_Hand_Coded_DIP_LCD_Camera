@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top">
+    <SubModule name="rPLL_75"/>
+    <SubModule name="Mv" Register="151" Alu="50" Lut="554">
+        <SubModule name="your_instance_name1" Register="4" Lut="44" Bsram="15"/>
+        <SubModule name="your_instance_name2" Register="4" Lut="44" Bsram="15"/>
+        <SubModule name="your_instance_name3" Register="4" Lut="44" Bsram="15"/>
+    </SubModule>
+</Module>

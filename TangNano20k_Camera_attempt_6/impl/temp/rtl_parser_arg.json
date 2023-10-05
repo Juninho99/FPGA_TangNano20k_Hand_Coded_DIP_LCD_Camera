@@ -1,0 +1,64 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Binary_video.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/Morphology_3x3_video.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/ekran2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_rpll/gowin_rpll_pix.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/gowin_sdpb/gowin_sdpb4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_Camera_attempt_6/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_2008"
+}
