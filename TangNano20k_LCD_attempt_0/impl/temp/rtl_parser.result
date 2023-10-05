@@ -1,0 +1,316 @@
+[
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Binary_image.v",
+  "InstLine" : 1,
+  "InstName" : "Binary_image",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Binary_image.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Binary_image",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Binary_image.v",
+    "InstLine" : 33,
+    "InstName" : "prom1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom3.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_pROM3"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Colorful_image.v",
+  "InstLine" : 1,
+  "InstName" : "Colorful_image",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Colorful_image.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Colorful_image",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Colorful_image.v",
+    "InstLine" : 33,
+    "InstName" : "prom1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom5.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_pROM5"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/ETF_11_colors.v",
+  "InstLine" : 1,
+  "InstName" : "ETF_11_colors",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/ETF_11_colors.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ETF_11_colors"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_3x3.v",
+  "InstLine" : 1,
+  "InstName" : "Gaussian_blur_3x3",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_3x3.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Gaussian_blur_3x3",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_3x3.v",
+    "InstLine" : 73,
+    "InstName" : "u_sdpb1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb3.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB3"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_3x3.v",
+    "InstLine" : 87,
+    "InstName" : "u_sdpb2",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb3.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB3"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_3x3.v",
+    "InstLine" : 101,
+    "InstName" : "u_sdpb3",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb3.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB3"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+  "InstLine" : 1,
+  "InstName" : "Gaussian_blur_5x5",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Gaussian_blur_5x5",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+    "InstLine" : 118,
+    "InstName" : "u_sdpb1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb4.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB4"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+    "InstLine" : 132,
+    "InstName" : "u_sdpb2",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb4.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB4"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+    "InstLine" : 146,
+    "InstName" : "u_sdpb3",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb4.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB4"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+    "InstLine" : 160,
+    "InstName" : "u_sdpb4",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb4.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB4"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Gaussian_blur_5x5.v",
+    "InstLine" : 174,
+    "InstName" : "u_sdpb5",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb4.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB4"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Grayscale_image.v",
+  "InstLine" : 1,
+  "InstName" : "Grayscale_image",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Grayscale_image.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Grayscale_image",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Grayscale_image.v",
+    "InstLine" : 33,
+    "InstName" : "prom1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom4.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_pROM4"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morhology_3x3v2.v",
+  "InstLine" : 1,
+  "InstName" : "Morphology_3x3v2",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morhology_3x3v2.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Morphology_3x3v2",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morhology_3x3v2.v",
+    "InstLine" : 73,
+    "InstName" : "u_sdpb1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morhology_3x3v2.v",
+    "InstLine" : 87,
+    "InstName" : "u_sdpb2",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morhology_3x3v2.v",
+    "InstLine" : 101,
+    "InstName" : "u_sdpb3",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morphology_3x3.v",
+  "InstLine" : 1,
+  "InstName" : "Morphology_3x3",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morphology_3x3.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Morphology_3x3",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morphology_3x3.v",
+    "InstLine" : 53,
+    "InstName" : "sdpb1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morphology_3x3.v",
+    "InstLine" : 67,
+    "InstName" : "sdpb2",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Morphology_3x3.v",
+    "InstLine" : 81,
+    "InstName" : "sdpb3",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Sobel_edge_detection_3x3.v",
+  "InstLine" : 1,
+  "InstName" : "Sobel_edge_detection_3x3",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Sobel_edge_detection_3x3.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Sobel_edge_detection_3x3",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Sobel_edge_detection_3x3.v",
+    "InstLine" : 80,
+    "InstName" : "u_sdpb1",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb5.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB5"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Sobel_edge_detection_3x3.v",
+    "InstLine" : 94,
+    "InstName" : "u_sdpb2",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb5.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB5"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/Sobel_edge_detection_3x3.v",
+    "InstLine" : 108,
+    "InstName" : "u_sdpb3",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb5.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SDPB5"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_pROM",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_pROM"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom1.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_pROM1",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom1.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_pROM1"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom2.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_pROM2",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_prom/gowin_prom2.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_pROM2"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb1.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_SDPB1",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb1.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_SDPB1"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb2.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_SDPB2",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/gowin_sdpb2.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_SDPB2"
+ },
+ {
+  "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/top.v",
+    "InstLine" : 19,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/top.v",
+    "InstLine" : 39,
+    "InstName" : "ETF7",
+    "ModuleFile" : "C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/ETF_7_colors.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ETF_7_colors"
+   }
+  ]
+ }
+]

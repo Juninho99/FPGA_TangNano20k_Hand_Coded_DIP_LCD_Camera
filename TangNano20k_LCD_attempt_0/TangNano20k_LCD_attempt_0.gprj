@@ -1,0 +1,35 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/Binary_image.v" type="file.verilog" enable="1"/>
+        <File path="src/Colorful_image.v" type="file.verilog" enable="1"/>
+        <File path="src/ETF_11_colors.v" type="file.verilog" enable="1"/>
+        <File path="src/ETF_7_colors.v" type="file.verilog" enable="1"/>
+        <File path="src/Gaussian_blur_3x3.v" type="file.verilog" enable="1"/>
+        <File path="src/Gaussian_blur_5x5.v" type="file.verilog" enable="1"/>
+        <File path="src/Grayscale_image.v" type="file.verilog" enable="1"/>
+        <File path="src/Morhology_3x3v2.v" type="file.verilog" enable="1"/>
+        <File path="src/Morphology_3x3.v" type="file.verilog" enable="1"/>
+        <File path="src/Sobel_edge_detection_3x3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom2.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom4.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom5.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb2.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb3.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb4.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb5.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/TangNano20k_LCD_attempt_0.cst" type="file.cst" enable="1"/>
+        <File path="src/Lite0.rao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>

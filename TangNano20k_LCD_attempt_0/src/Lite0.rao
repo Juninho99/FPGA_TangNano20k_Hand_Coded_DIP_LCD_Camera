@@ -1,0 +1,35 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="LCD_CLK" trig_type="0" capture_amount="1024" implemention="0" input_register_enabled="1" capture_init_data_enabled="1" module_name="TOP">
+        <SignalList>
+            <Signal>LCD_HYNC</Signal>
+            <Signal>LCD_SYNC</Signal>
+            <Signal>LCD_DEN</Signal>
+            <Bus name="LCD_R[4:0]">
+                <Signal>LCD_R[4]</Signal>
+                <Signal>LCD_R[3]</Signal>
+                <Signal>LCD_R[2]</Signal>
+                <Signal>LCD_R[1]</Signal>
+                <Signal>LCD_R[0]</Signal>
+            </Bus>
+            <Bus name="LCD_G[5:0]">
+                <Signal>LCD_G[5]</Signal>
+                <Signal>LCD_G[4]</Signal>
+                <Signal>LCD_G[3]</Signal>
+                <Signal>LCD_G[2]</Signal>
+                <Signal>LCD_G[1]</Signal>
+                <Signal>LCD_G[0]</Signal>
+            </Bus>
+            <Bus name="LCD_B[4:0]">
+                <Signal>LCD_B[4]</Signal>
+                <Signal>LCD_B[3]</Signal>
+                <Signal>LCD_B[2]</Signal>
+                <Signal>LCD_B[1]</Signal>
+                <Signal>LCD_B[0]</Signal>
+            </Bus>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>1111001101011010</GAO_ID>
+</GAO_CONFIG>

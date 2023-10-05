@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=gowin_prom5
+module=Gowin_pROM5
+target_device=gw2ar18c-000
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=49984
+LANG=0
+MEM_FILE=C:\\Users\\Armin\\Desktop\\ImageProcessing\\FPGA_Digital_Image_Processing\\Files_For_Reading_Images\\slika_284x176_0.mi
+READ=1
+RESET_MODE=true
+WIDTH=16

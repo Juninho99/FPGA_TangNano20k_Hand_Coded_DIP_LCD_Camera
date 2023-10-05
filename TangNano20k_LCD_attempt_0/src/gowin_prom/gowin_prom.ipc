@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=gowin_prom
+module=Gowin_pROM
+target_device=gw2ar18c-000
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=384000
+LANG=0
+MEM_FILE=C:\\Users\\Armin\\Desktop\\ImageProcessing\\FPGA_Digital_Image_Processing\\Files_For_Reading_Images\\image_pROM_ETF_Logo_800x480.mi
+READ=1
+RESET_MODE=true
+WIDTH=1

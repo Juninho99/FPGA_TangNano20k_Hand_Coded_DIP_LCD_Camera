@@ -1,0 +1,13 @@
+-d C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_LCD_attempt_0\impl\gwsynthesis\TangNano20k_LCD_attempt_0.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_LCD_attempt_0\src\TangNano20k_LCD_attempt_0.cst
+-cfg C:\Users\Armin\Desktop\ImageProcessing\TangNano20k_LCD_attempt_0\impl\pnr\device.cfg
+-gao_crc 1111001101011010
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23
+-rtl_gao

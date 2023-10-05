@@ -1,0 +1,21 @@
+-series GW2AR
+-device GW2AR-18
+-device_version C
+-package QFN88
+-part_number GW2AR-LV18QN88C8/I7
+
+
+-mod_name Gowin_SDPB5
+-file_name gowin_sdpb5
+-path C:/Users/Armin/Desktop/ImageProcessing/TangNano20k_LCD_attempt_0/src/gowin_sdpb/
+-type RAM_SDP
+-file_type vlg
+-bram_b true
+-depth_0 30637
+-depth_1 30637
+-width_0 8
+-width_1 8
+-read_mode pipeline
+-reset_mode sync
+-init_file C:/Users/Armin/Desktop/ImageProcessing/FPGA_Digital_Image_Processing/Files_For_Reading_Images/slika_222x138.mi
+-init_match port_A
