@@ -46,7 +46,7 @@ Throughout this exploration, the study weaves in the unique intricacies associat
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/d956337d-0f30-4bd7-8552-6441a25c79bb" width="700">
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/e32e8528-c8bd-4e55-a0c4-36e0ccfd8335" width="700">
 
-The video demonstrates real-time image transmission from a camera to a screen. It is accomplished through a video system made up of 2 boards.  
+The video below demonstrates real-time image transmission from a camera to a screen. It is accomplished through a video system made up of 2 boards.  
 
 One FPGA device, equipped with a DVP input for the camera, enables direct data transfer (via wires) to another FPGA device. The second FPGA device receives the data and stores it in block RAM memory. After storing a complete frame, it is displayed on the screen.  
 
