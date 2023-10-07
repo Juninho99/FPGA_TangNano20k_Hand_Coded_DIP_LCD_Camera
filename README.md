@@ -60,7 +60,7 @@ This brief overview is a mere teaser. I've put it together to instigate curiosit
 
 Be it related to video, audio, general signal-processing, or interfacing FPGA to sensors and photonics. Be it using Parallel; Low or High-speed Serial; Commodity LVDS, or Specialty CML I/O pads; QSPI or SerDes; OV, RPi, or IMX Camera SOCs -- I'm always a challenge seeker, problem analyst and solver at heart.  
 
-Yet, I'm not a lone star, but a team player with elaborate community ecosystem. In that sense, this Master thesis work of mine has leveraged from the following open-source prior art:
+Yet, I'm not a lone star, but a team player with in an elaborate community ecosystem. In that sense, this Master thesis work of mine has leveraged from the following open-source prior art:
 
 * https://github.com/StereoNinja/StereoNinjaFPGA
 * https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface
