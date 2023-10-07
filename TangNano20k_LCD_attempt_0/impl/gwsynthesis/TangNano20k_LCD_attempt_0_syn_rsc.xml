@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="TOP">
-    <SubModule name="gw_gao_inst_0" Register="181" Alu="9" Lut="175" Bsram="2"/>
-    <SubModule name="chip_pll"/>
-    <SubModule name="ETF7" Register="32" Alu="15" Lut="117"/>
-</Module>

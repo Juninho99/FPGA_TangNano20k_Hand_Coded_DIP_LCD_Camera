@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top3" Register="123" Alu="17" Lut="160">
-    <SubModule name="u_rpll"/>
-    <SubModule name="u_sdpb1" Register="8" Lut="26" Bsram="9"/>
-    <SubModule name="u_sdpb2" Register="8" Lut="26" Bsram="9"/>
-    <SubModule name="u_sdpb3" Register="8" Lut="26" Bsram="9"/>
-    <SubModule name="u_sdpb4" Register="8" Lut="26" Bsram="9"/>
-    <SubModule name="u_sdpb5" Register="8" Lut="26" Bsram="9"/>
-</Module>

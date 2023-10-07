@@ -51,7 +51,7 @@ module top(
         .reset      (   Reset_Button       )
 	);
 */
-/*
+
     ekran1	ek1
 	(
 		.PixelClk	(	pixclk		),
@@ -68,7 +68,7 @@ module top(
         .vsync      (   vsync       ),
         .reset      (   Reset_Button       )
 	);
-*/
+
 /*
     Binary_video	Bv
 	(
@@ -87,6 +87,7 @@ module top(
         .reset      (   Reset_Button       )
 	);
 */
+/*
     Morphology_3x3_video	Mv
 	(
 		.PixelClk	(	pixclk		),
@@ -103,6 +104,7 @@ module top(
         .vsync      (   vsync       ),
         .reset      (   Reset_Button       )
 	);
+*/
 	assign		LCD_CLK		=	pixclk;
 
 endmodule
