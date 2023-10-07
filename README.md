@@ -36,6 +36,9 @@ Throughout this exploration, the study weaves in the unique intricacies associat
 ![kamera_grayscale1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/d956337d-0f30-4bd7-8552-6441a25c79bb)
 ![kamera_binary1](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/e32e8528-c8bd-4e55-a0c4-36e0ccfd8335)
 
+https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/128f5e11-914b-4778-95fa-f1b337d61a30
+
+
 
 
 
