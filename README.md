@@ -63,12 +63,14 @@ Be it related to video, audio, general signal-processing, or interfacing FPGA to
 Yet, I'm not a lone star, but a team player with elaborate community ecosystem. In that sense, this Master thesis work of mine has leveraged from the following open-source prior art:
 
 * https://github.com/StereoNinja/StereoNinjaFPGA
+* https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface
 * https://github.com/gatecat/CSI2Rx
+* https://github.com/westonb/OV7670-Verilog
 * https://github.com/circuitvalley/USB_C_Industrial_Camera_FPGA_USB3
 * https://github.com/chili-chips-ba/openXC7-TetriSaraj
 
 Just like I have built on top of open-source community, you are free to use my work as the starter or incubator for your projects. Then, jump one level up to the root of my repo for more cool hardware/software designs to take a look at and build upon.  
-https://github.com/Juninho99
+* https://github.com/Juninho99
 
 
 
