@@ -8,6 +8,10 @@ Furthermore, the research addresses challenges that arise during the configurati
 
 Throughout this exploration, the study weaves in the unique intricacies associated with the selected hardware, providing a holistic perspective on the potential of FPGA-based solutions in the context of digital image and video processing.
 
+## Signals of interest used in the simulation
+<!--![Prikaz prozora GTKWave sa oznakama - Github](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/34651656-3122-4e60-be29-1f7264e5f736)-->
+<img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/34651656-3122-4e60-be29-1f7264e5f736" width="700">
+
 ## Generating an image on the screen
 <!---![etf-generated-image](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/10b7db07-097a-45b4-9aa9-393286a1145f)-->
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/10b7db07-097a-45b4-9aa9-393286a1145f" width="700">
@@ -54,13 +58,17 @@ Due to limited memory capacity, the displayed images on the screen are in graysc
 
 https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/128f5e11-914b-4778-95fa-f1b337d61a30
 
+### Key signals for establishing a connection between the camera and the screen
+<!---![Camera-Screen-Signals-Github](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/fcb17978-990f-4714-becf-1a75ad4150d7)-->
+<img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/fcb17978-990f-4714-becf-1a75ad4150d7" width="700">
+
 ## Closing notes
 
 This brief overview is a mere teaser. I've put it together to instigate curiosity and open path for the follow up, deeper conversations.  
 
 Be it related to video, audio, general signal-processing, or interfacing FPGA to sensors and photonics. Be it using Parallel; Low or High-speed Serial; Commodity LVDS, or Specialty CML I/O pads; QSPI or SerDes; OV, RPi, or IMX Camera SOCs -- I'm always a challenge seeker, problem analyst and solver at heart.  
 
-Yet, I'm not a lone star, but a team player with in an elaborate community ecosystem. In that sense, this Master thesis work of mine has leveraged from the following open-source prior art:
+Yet, I'm not a lone star, but a team player within an elaborate community ecosystem. In that sense, this Master thesis work of mine has leveraged from the following open-source prior art:
 
 * https://github.com/StereoNinja/StereoNinjaFPGA
 * https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface
