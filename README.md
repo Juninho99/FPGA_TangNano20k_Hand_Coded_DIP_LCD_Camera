@@ -100,7 +100,7 @@ Always-half-full FIFO is the key element that ensures smooth data transfer. That
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/34651656-3122-4e60-be29-1f7264e5f736" width="700">
 
 ## Closing notes
-This brief overview is a mere teaser. I've put it together to instigate curiosity and open the path for follow up, deeper conversations.  
+This brief overview is a mere teaser. I've put it together to instigate curiosity and open doors for the follow up, deeper conversations.  
 
 Be it related to:
  - Video
