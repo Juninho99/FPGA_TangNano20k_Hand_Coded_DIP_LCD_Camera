@@ -81,7 +81,7 @@ On the other hand, the Image/Video Processor takes data out of the Pixel Buffer,
 
 The RGB LCD Backend does not constain the full <i>Store-and-Forward Frame Buffer</i> (FB) either. Instead, it provides the minimal amount of <i>Cut-Through</i> Pixel Buffering, essentialy just enough to smoothen out the occasional burstiness of video output from the Image/Video Processor. 
 
-Substantial memory saving is realized in this way compared to the classic video buffering methods.
+Substantial memory saving is realized in this way compared to the standard video buffering methods.
 
 ![PixelBuffer](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/85389399-4c11-4ccf-971c-7eebf0b8ba0c)
 
