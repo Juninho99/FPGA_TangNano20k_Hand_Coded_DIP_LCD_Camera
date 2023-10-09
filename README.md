@@ -1,4 +1,4 @@
-# Camera-to-LCD Streaming, via Gowin FPGAs
+# Camera-to-LCD Streaming
 This is an excerpt from my MSEE paper, defended at the Faculty of Electrical Enginering, University of Sarajevo, Bosnia-Herzegovina. The paper explores the application of FPGA programmable structures for Digital Image Processing (DIP). FPGA structures offer high flexibility in constructing custom parallel computation datapaths, making them super fast and often ideal choice for Computer Vision (CV) workloads.  
 
 The paper discusses fundamental DIP concepts, including Morphological Operations, Filtering, and Edge Detection. The study showcases practical implementations of algorithms in logic structures, with price-performance tradeoffs between:
@@ -19,7 +19,7 @@ The techniques for achieving higher <i>Frames Per Second</i> (FPS) processing ra
 Throughout this exploration, the study weaves-in the unique intricacies associated with underlying hardware, providing a holistic perspective on the potential for FPGA solutions in the field of digital image and video algorithms.
 
 ## 1. Hardware Platform
-For a number of good reasons, my experimental system is made of 2 boards:
+For a number of good reasons, my experimental system is made of 2 boards, both with Gowin FPGAs:
  - <b>Static Image</b> examples use only the second board (TangNano20K), which drives the LCD screen
  - <b>Motion Picture</b> examples also use the camera board (TangNano4K)
           ![2-board-Video-System Logical-View](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/4da18116-7d33-40d9-8b21-fb2893a533ed)
