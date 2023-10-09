@@ -67,7 +67,7 @@ The video below demonstrates <i>real-time video transfer from camera to screen</
 
 The 1st FPGA device is equipped with a DVP input. It takes-in video from an OV Camera SOC, and moves it to the 2nd FPGA device, via exernally exposed wires. The second FPGA device receives such streaming video data, passes it through Block RAM (BRAM) configured as an always-half-full FIFO, and renders it on an LCD. The final display operates at 8 FPS. 
 
-Both Camera-to-FPGA1 and FPGA2-to-FPGA2 data handoffs are implemented using <i>Source-synchronous, Eye-centered</i> interfacing method.
+Both Camera-to-FPGA1 and FPGA1-to-FPGA2 data handoffs are implemented using <i>Source-synchronous, Eye-centered</i> interfacing method.
 
 https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/128f5e11-914b-4778-95fa-f1b337d61a30
 
