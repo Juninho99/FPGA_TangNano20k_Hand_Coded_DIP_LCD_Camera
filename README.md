@@ -22,11 +22,13 @@ Throughout this exploration, the study weaves-in the unique intricacies associat
 For a number of good reasons, my experimental system is made of 2 boards, both with Gowin FPGAs:
  - <b>Static Image</b> examples use only the second board (TangNano20K), which drives the LCD screen
  - <b>Motion Picture</b> examples also use the camera board (TangNano4K)
-          ![2-board-Video-System Logical-View](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/4da18116-7d33-40d9-8b21-fb2893a533ed)
+         <!--- ![2-board-Video-System Logical-View](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/4da18116-7d33-40d9-8b21-fb2893a533ed)-->
+   <img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/4da18116-7d33-40d9-8b21-fb2893a533ed" width="700">
 
 Such full, end2end datapath has the video jumping on-off FPGA four times, and streaming between two boards.
-              ![2-board-Video-System Physical-View](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/156385ba-417d-4ef9-81f1-0ea1bde4f702)
-
+          <!---    ![Fpga20k_4k_shema](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/0b7b6b1f-9036-4c48-bc2e-d759b191a52e)
+-->
+<img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/0b7b6b1f-9036-4c48-bc2e-d759b191a52e" width="700">
 ## 2. Static Images
 ### 2.1 Algorithmic Image Generation
 This is almost like Vector Graphics, naturally to the extent possible with a standard Bit-Map display. 
@@ -71,8 +73,10 @@ Both Camera-to-FPGA1 and FPGA1-to-FPGA2 data handoffs are implemented using <i>S
 
 https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/128f5e11-914b-4778-95fa-f1b337d61a30
 
+<!---![Camera2LCD-datapath-Github](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/377eb02c-a2c6-4c6a-8aca-39e22ced45b8)-->
+<img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/377eb02c-a2c6-4c6a-8aca-39e22ced45b8" width="900">
 
-![Camera2LCD-datapath](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/c9278840-4ddb-492e-9760-e829938d6415)
+<!---![Camera2LCD-datapath](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/c9278840-4ddb-492e-9760-e829938d6415)-->
 
 ### 4.1 Dataflow Essentials
 Camera keeps streaming data into FPGA1, and cannot be backpressured. That's the classic "Push" interface. 
@@ -83,7 +87,11 @@ The RGB LCD Backend does not constain the full <i>Store-and-Forward Frame Buffer
 
 Substantial memory saving is realized in this way compared to the standard video buffering methods.
 
-![PixelBuffer](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/85389399-4c11-4ccf-971c-7eebf0b8ba0c)
+<!---![PixelBuffer](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/85389399-4c11-4ccf-971c-7eebf0b8ba0c)-->
+<!---![PixelBuffer-Github](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/e8a82a84-a3ab-463e-b3ac-5e7816b6b376)-->
+
+<img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/162129c3-4634-45e4-af29-baf8dae9e4f5" width="300">
+
 
 ### 4.2 Key signals for Data Streaming between Camera and Screen
 The data transfer between Camera, two FPGA devices and Screen is governed by:
@@ -129,9 +137,3 @@ Just like I have built on top of open-source community contributions, you are fr
 
 Then, jump one level up to the root of my repo, where you'll find more cool hardware/software designs you can take a look at, and build upon.  
 * https://github.com/Juninho99
-
-
-   <b>--- End of Document ---</b>
-
-
-
