@@ -9,7 +9,7 @@ The paper discusses fundamental DIP concepts, including Morphological Operations
 
 In doing so, it demonstrates FPGA capacity to significantly boost image processing speeds. Through illustrative examples and empirical results, the paper highlights the distinct advantages of FPGA solutions, contrasting them to traditional CPU and GPU approaches.  
 
-This research then goes to analyze the challenges that arise from configuration demands on FPGA programmable logic, such as:
+This research then goes on to analyze the challenges that arise from configuration demands on FPGA programmable logic, such as:
  - Resource Utilization
  - Resource Optimization
  - Memory Management
