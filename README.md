@@ -67,9 +67,24 @@ The video below demonstrates <i>real-time video transfer from camera to screen</
 
 The 1st FPGA device is equipped with a DVP input. It takes-in video from an OV Camera SOC, and moves it to the 2nd FPGA device, via exernally exposed wires. The second FPGA device receives such streaming video data, passes it through Block RAM (BRAM) configured as an always-half-full FIFO, and renders it on an LCD. The final display operates at 8 FPS. 
 
+Both Camera-to-FPGA1 and FPGA2-to-FPGA2 data handoffs are implemented using <i>Source-synchronous, Eye-centered</i> interfacing method.
+
 https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/128f5e11-914b-4778-95fa-f1b337d61a30
 
+
+![Camera2LCD-datapath](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/c9278840-4ddb-492e-9760-e829938d6415)
+
 ### 4.1 Dataflow Essentials
+Camera keeps streaming data into FPGA1, and cannot be backpressured. That's the classic "Push" interface. 
+
+On the other hand, the Image/Video Processor takes data out of the Pixel Buffer, which is a "Pull" interface. To make it more-efficient in terms of LUT expense, the Image/Video processor takes advantage of blanking intervals, and tries to spread out useful work, at times consuming more than one cycle to process one pixel. This means that, in order not to drop data, the Pixel Buffer must provide a measure of elasticity. This is to absorb the resulting discrepancy between ingress and egress throughput, despite having the same clock rate and data width, both in and out. It does it by <b>running Half Full most of the time</b>, which yields <i>+/- buffer depth of pixel elasticity</i>.
+
+The RGB LCD Backend does not constain the full <i>Store-and-Forward Frame Buffer</i> (FB) either. Instead, it provides the minimal amount of <i>Cut-Through</i> Pixel Buffering, essentialy just enough to smoothen out the occasional burstiness of video output from the Image/Video Processor. 
+
+Substantial memory saving is realized in this way compared to the classic video buffering methods.
+
+![PixelBuffer](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/85389399-4c11-4ccf-971c-7eebf0b8ba0c)
+
 ### 4.2 Key signals for Data Streaming between Camera and Screen
 The data transfer between Camera, two FPGA devices and Screen is governed by:
  - Vertical and Horizontal Synchronization Pulses
