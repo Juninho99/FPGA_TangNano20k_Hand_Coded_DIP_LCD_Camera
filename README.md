@@ -19,16 +19,18 @@ The techniques for achieving higher <i>Frames Per Second</i> (FPS) processing ra
 Throughout this exploration, the study weaves-in the unique intricacies associated with underlying hardware, providing a holistic perspective on the potential for FPGA solutions in the field of digital image and video algorithms.
 
 ## 1. Hardware Platform
-For a number of good reasons, my experimental system is made of 2 boards. 
- - <b>Static Image</b> examples use only the second board, which drives the LCD screen
- - <b>Motion Picture</b> examples also use the camera board.
- 
-Such full, end2end datapath has the video jumping on-off FPGA 2 times, and streaming between boards 
+For a number of good reasons, my experimental system is made of 2 boards:
+ - <b>Static Image</b> examples use only the second board (TangNano20K), which drives the LCD screen
+ - <b>Motion Picture</b> examples also use the camera board (TangNano4K)
+          ![2-board-Video-System Logical-View](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/4da18116-7d33-40d9-8b21-fb2893a533ed)
+
+Such full, end2end datapath has the video jumping on-off FPGA four times, and streaming between two boards.
+              ![2-board-Video-System Physical-View](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/45703565/156385ba-417d-4ef9-81f1-0ea1bde4f702)
 
 ## 2. Static Images
 ### 2.1 Algorithmic Image Generation
 This is almost like Vector Graphics, naturally to the extent possible with a standard Bit-Map display. 
- - Image is generated in Verilog, on-the-fly / "chasing the ray"
+ - Image is generated in System Verilog RTL, on-the-fly / "chasing the ray"
 <!---![etf-generated-image](https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/10b7db07-097a-45b4-9aa9-393286a1145f)-->
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_DIP_LCD_Camera/assets/70281175/10b7db07-097a-45b4-9aa9-393286a1145f" width="700">
 
@@ -77,7 +79,7 @@ The data transfer between Camera, two FPGA devices and Screen is governed by:
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/fcb17978-990f-4714-becf-1a75ad4150d7" width="700">
 
 ### 4.3 Key signals in Simulation
-Always-half-full FIFO is the key for smooth data transfer. That's where "Camera Push" meets "Screen Pull", and pixel-level elasticity peacefully resolves potential clash.
+Always-half-full FIFO is the key element that ensures smooth data transfer. That's where the "Camera Push" meets the "Screen Pull", and pixel-level elasticity peacefully resolves the potential clash.
 
 <!--![Prikaz prozora GTKWave sa oznakama - Github](https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/34651656-3122-4e60-be29-1f7264e5f736)-->
 <img src="https://github.com/Juninho99/FPGA_TangNano20k_Hand_Coded_DIP_LCD_Camera/assets/70281175/34651656-3122-4e60-be29-1f7264e5f736" width="700">
@@ -91,14 +93,14 @@ Be it related to:
  - General signal-processing
  - or interfacing FPGA to sensors and photonics.
 
-Be it using:
+Be it for using:
 - Parallel
-- Low or High-speed Serial
+- Serial: Standard, or High-speed
 - Commodity LVDS, or Specialty CML I/O pads
-- QSPI or SerDes
+- QSPI, or SerDes
 - OV, RPi, or IMX Camera SOCs
 
-I'm always a <b>Challenge Seeker, Problem Analyst</b> and <b>Problem Solver</b> at heart. Yet, I'm not a lone star, but a <b>team player within an elaborate community ecosystem</b>. 
+I'm always a <b>Challenge Seeker, Problem Analyst</b> and <b>Problem Solver</b> at heart. Yet, I'm not a lone star, but a <b>Team Player within an elaborate community ecosystem</b>. 
 
 In that sense, this Master thesis work has leveraged from the following open-source prior art:
 * https://github.com/StereoNinja/StereoNinjaFPGA
@@ -108,7 +110,9 @@ In that sense, this Master thesis work has leveraged from the following open-sou
 * https://github.com/circuitvalley/USB_C_Industrial_Camera_FPGA_USB3
 * https://github.com/chili-chips-ba/openXC7-TetriSaraj
 
-Just like I have built on top of open-source community contributions, you are free to use my work as a starter, or incubator for your projects. Then, jump one level up to the root of my repo, where you'll find more cool hardware/software designs you can take a look at, and build upon.  
+Just like I have built on top of open-source community contributions, you are free to use my work as a starter, or incubator for your projects. 
+
+Then, jump one level up to the root of my repo, where you'll find more cool hardware/software designs you can take a look at, and build upon.  
 * https://github.com/Juninho99
 
 
